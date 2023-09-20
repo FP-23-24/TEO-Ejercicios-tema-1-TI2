@@ -6,7 +6,9 @@ Cree una carpeta ``src``, y dentro de la misma un archivo ``ejercicioX.py`` para
 ### Ejercicio 1
 Defina una función ``calcula_imc`` que reciba como entrada el peso y la estatura de una persona (en kilogramos y metros, respectivamente) y calcule su índice de masa corporal o [IMC](https://es.wikipedia.org/wiki/%C3%8Dndice_de_masa_corporal).
 
-Para probar la función, lea del teclado dos valores que representen el peso y la altur, llame a la función para calcular el IMC, y muéstrelo en la consola.
+Para probar la función, lea del teclado dos valores que representen el peso y la altura, llame a la función para calcular el IMC, y muéstrelo en la consola.
+
+**NOTA**: Use la función predefinida ``input(mensaje)`` para leer datos desde el teclado.
 
 ### Ejercicio 2
 Defina una función ``calcula_estado_nutricional`` que reciba como parámetros el peso y la estatura de una persona (en kilogramos y metros, respectivamente), y devuelva una cadena de texto con el estado nutricional de la persona de acuerdo con su IMC. El estado nutricional puede ser uno de los siguientes:
@@ -17,7 +19,7 @@ Defina una función ``calcula_estado_nutricional`` que reciba como parámetros e
 
 **NOTA**: Tenga en cuenta que para utilizar la función ``calcula_imc`` implementada anteriormente deberá importarla desde el módulo ``ejercicio1``.
 
-Para probar la función, lea del teclado dos valores que representen el peso y la altur, llame a la función para calcular el estado nutricional, y muéstrelo en la consola.
+Para probar la función, lea del teclado dos valores que representen el peso y la altura, llame a la función para calcular el estado nutricional, y muéstrelo en la consola.
 
 
 ### Ejercicio 3
@@ -44,20 +46,16 @@ personas = [
 ### Ejercicio 4
 Defina una función ``lee_numeros`` que lea varios números enteros del teclado y los devuelva almacenados en una lista. La cantidad de números a leer será un parámetro de la función.
 
-**NOTA**: Use la función predefinida ``input(mensaje)`` para leer los números desde el teclado. Haga pruebas con la función y observe de qué tipo es el valor devuelto por la misma.
-
 Pruebe la función ``lee_numeros`` pidiéndole que lea tantos números como indique el usuario por el teclado, y mostrando en la consola la lista resultante. A continuación, implemente los siguientes cálculos sobre la lista obtenida, mostrando el resultado de cada uno por consola:
 
-- Mayor número de la lista
+- Mayor número de la lista (**PISTA**: Busque una función predefinida de Python que realiza este cálculo)
 - Media de los números de la lista (si la lista estuviera vacía, se mostraría "No es posible calcular la media")
 - Número de elementos pares en la lista
 - Nueva lista con aquellos elementos de la lista leída que sean mayores a 10
 
 
 ### Ejercicio 5
-Defina una función ``calcula_dia_semana`` que reciba una fecha, de tipo ``date``, y devuelva el nombre del día de la semana que corresponde a la fecha. 
-
-**Nota**: busca información sobre el método ``weekday()`` del tipo ``date``.
+Defina una función ``calcula_dia_semana`` que reciba una fecha, de tipo ``date``, y devuelva el nombre del día de la semana que corresponde a la fecha. **PISTA**: busca información sobre el método ``weekday()`` del tipo ``date``.
 
 Para probar la función, solicite al usuario que introduzca por teclado el día, mes y año de su nacimiento, construya un objeto de tipo ``date``, y páselo a la función. Informe al usuario del día de la semana en que nació.
 
